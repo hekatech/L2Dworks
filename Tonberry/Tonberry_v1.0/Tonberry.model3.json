@@ -1,0 +1,23 @@
+{
+	"Version": 3,
+	"FileReferences": {
+		"Moc": "Tonberry.moc3",
+		"Textures": [
+			"Tonberry.4096/texture_00.png"
+		],
+		"Physics": "Tonberry.physics3.json",
+		"DisplayInfo": "Tonberry.cdi3.json"
+	},
+	"Groups": [
+		{
+			"Target": "Parameter",
+			"Name": "EyeBlink",
+			"Ids": []
+		},
+		{
+			"Target": "Parameter",
+			"Name": "LipSync",
+			"Ids": []
+		}
+	]
+}

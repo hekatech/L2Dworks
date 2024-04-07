@@ -1,0 +1,206 @@
+{
+	"Version": 3,
+	"Parameters": [
+		{
+			"Id": "ParamAngleX",
+			"GroupId": "",
+			"Name": "角度 X"
+		},
+		{
+			"Id": "ParamAngleY",
+			"GroupId": "",
+			"Name": "角度 Y"
+		},
+		{
+			"Id": "ParamAngleZ",
+			"GroupId": "",
+			"Name": "角度 Z"
+		},
+		{
+			"Id": "ParamBodyAngleX",
+			"GroupId": "",
+			"Name": "身体旋转　X"
+		},
+		{
+			"Id": "ParamBodyAngleY",
+			"GroupId": "",
+			"Name": "身体旋转　Y"
+		},
+		{
+			"Id": "ParamBodyAngleZ",
+			"GroupId": "",
+			"Name": "身体旋转　Z"
+		},
+		{
+			"Id": "ParamBreath",
+			"GroupId": "",
+			"Name": "呼吸"
+		},
+		{
+			"Id": "ParamHat",
+			"GroupId": "ParamGroup4",
+			"Name": "帽子开关"
+		},
+		{
+			"Id": "ParamBlackFace",
+			"GroupId": "ParamGroup4",
+			"Name": "黑脸"
+		},
+		{
+			"Id": "ParamQuesOpen",
+			"GroupId": "ParamGroup4",
+			"Name": "问号开关"
+		},
+		{
+			"Id": "ParamAngOpen",
+			"GroupId": "ParamGroup4",
+			"Name": "生气开关"
+		},
+		{
+			"Id": "ParamDotOpen",
+			"GroupId": "ParamGroup4",
+			"Name": "水滴开关"
+		},
+		{
+			"Id": "ParamEmoteGX",
+			"GroupId": "ParamGroup4",
+			"Name": "表情物理X"
+		},
+		{
+			"Id": "ParamEmoteGY",
+			"GroupId": "ParamGroup4",
+			"Name": "表情物理Y"
+		},
+		{
+			"Id": "ParamScfR",
+			"GroupId": "ParamGroup2",
+			"Name": "袖子右物理"
+		},
+		{
+			"Id": "ParamScfL",
+			"GroupId": "ParamGroup2",
+			"Name": "袖子左物理"
+		},
+		{
+			"Id": "ParamHatL",
+			"GroupId": "ParamGroup2",
+			"Name": "帽子左"
+		},
+		{
+			"Id": "ParamHatR",
+			"GroupId": "ParamGroup2",
+			"Name": "帽子右"
+		},
+		{
+			"Id": "ParamHatC",
+			"GroupId": "ParamGroup2",
+			"Name": "帽子尖"
+		},
+		{
+			"Id": "ParamKnifeLight",
+			"GroupId": "ParamGroup3",
+			"Name": "菜刀Light"
+		},
+		{
+			"Id": "ParamKnifeUp",
+			"GroupId": "ParamGroup3",
+			"Name": "菜刀"
+		},
+		{
+			"Id": "ParamKnifeX",
+			"GroupId": "ParamGroup3",
+			"Name": "刀X"
+		},
+		{
+			"Id": "ParamKnifeY",
+			"GroupId": "ParamGroup3",
+			"Name": "刀Y"
+		},
+		{
+			"Id": "ParamLanternUp",
+			"GroupId": "ParamGroup",
+			"Name": "提灯"
+		},
+		{
+			"Id": "ParamLight",
+			"GroupId": "ParamGroup",
+			"Name": "开灯"
+		},
+		{
+			"Id": "Param_Angle_Rotation7",
+			"GroupId": "ParamGroup",
+			"Name": "[0]灯"
+		},
+		{
+			"Id": "Param_Angle_Rotation8",
+			"GroupId": "ParamGroup",
+			"Name": "[1]灯"
+		}
+	],
+	"ParameterGroups": [
+		{
+			"Id": "ParamGroup4",
+			"GroupId": "",
+			"Name": "emote"
+		},
+		{
+			"Id": "ParamGroup2",
+			"GroupId": "",
+			"Name": "物理"
+		},
+		{
+			"Id": "ParamGroup3",
+			"GroupId": "",
+			"Name": "刀"
+		},
+		{
+			"Id": "ParamGroup",
+			"GroupId": "",
+			"Name": "灯"
+		}
+	],
+	"Parts": [
+		{
+			"Id": "emote",
+			"Name": "emote"
+		},
+		{
+			"Id": "shd",
+			"Name": "shd"
+		},
+		{
+			"Id": "knife",
+			"Name": "knife"
+		},
+		{
+			"Id": "Part",
+			"Name": "lant-scf"
+		},
+		{
+			"Id": "hat",
+			"Name": "hat"
+		},
+		{
+			"Id": "head",
+			"Name": "head"
+		},
+		{
+			"Id": "cloth",
+			"Name": "cloth"
+		},
+		{
+			"Id": "lantern",
+			"Name": "lantern"
+		}
+	],
+	"CombinedParameters": [
+		[
+			"ParamBodyAngleX",
+			"ParamBodyAngleY"
+		],
+		[
+			"ParamEmoteGX",
+			"ParamEmoteGY"
+		]
+	]
+}
